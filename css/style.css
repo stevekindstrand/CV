@@ -1,0 +1,354 @@
+/**********
+VARIABLES
+**********/
+/**********
+MIXIN
+**********/
+/**********
+NAVBAR
+**********/
+.navbar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 1.2rem;
+  background: #333333;
+}
+
+.navbar .my-name {
+  margin: 1rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-links ul li {
+  list-style: none;
+}
+
+.navbar-links ul li:hover {
+  background: #111111;
+}
+
+.navbar-links ul a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1.2rem;
+  display: block;
+}
+
+/**********
+TOGGLE BUTTON
+**********/
+.toggle-button {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Consolas", sans-serif;
+}
+
+/**********
+PAGE CONTAINER
+**********/
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f2f2f2;
+}
+
+/**********
+PAGE ONE
+**********/
+.page-one {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 70%;
+  font-size: 1.25rem;
+  background: #ffffff;
+  color: #111111;
+}
+
+.page-one p {
+  padding: 0 10% 0 10%;
+}
+
+/**********
+PAGE TWO
+**********/
+.page-two {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 70%;
+  font-size: 1.25rem;
+  background: #ffffff;
+  color: #111111;
+}
+
+.page-two ul {
+  padding: 0 10% 0 10%;
+}
+
+.page-two li {
+  list-style: none;
+  margin: 5px;
+}
+
+/**********
+PAGE THREE
+**********/
+.page-three {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 70%;
+  font-size: 1.25rem;
+  background: #ffffff;
+  color: #111111;
+}
+
+.page-three ul {
+  padding: 0 10% 0 10%;
+}
+
+.page-three li {
+  list-style: none;
+  margin: 8px;
+}
+
+.page-three .thick-line {
+  border-top: 1px solid #111111;
+  border-bottom: 0;
+}
+
+.page-three .thin-line {
+  border-top: 1px solid #ccc4c2;
+  border-bottom: 0;
+}
+
+/**********
+PAGE FOUR
+**********/
+.page-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 70%;
+  font-size: 1.25rem;
+  background: #ffffff;
+  color: #111111;
+}
+
+.page-four ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10% 0 10%;
+}
+
+.page-four i {
+  margin-bottom: 10px;
+}
+
+.page-four a {
+  text-decoration: none;
+  color: #111111;
+  margin-left: 15px;
+}
+
+.page-four a:hover {
+  color: #3224FF;
+}
+
+/**********
+MEDIA
+**********/
+@media (max-width: 1200px) {
+  .page-one {
+    width: 100%;
+  }
+  .page-two {
+    width: 100%;
+  }
+  .page-three {
+    width: 100%;
+  }
+  .page-four {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-top: 1px solid #ffffff;
+  }
+  .navbar-links li {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+  }
+  .navbar-links a {
+    padding: .5rem 1rem;
+  }
+  .navbar-links.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .toggle-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .page-one {
+    padding: 100px 0 100px 0;
+    height: auto;
+    font-size: 1rem;
+  }
+  .page-one p {
+    padding: 0 5% 0 5%;
+  }
+  .page-two {
+    font-size: 1rem;
+  }
+  .page-two ul {
+    padding: 0 5% 0 5%;
+  }
+  .page-three {
+    font-size: 1rem;
+  }
+  .page-four {
+    font-size: 1rem;
+  }
+  .page-four ul {
+    padding: 0 5% 0 5%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

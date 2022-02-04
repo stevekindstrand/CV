@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Consolas", sans-serif;
+}
+
+/**********
+PAGE CONTAINER
+**********/
+.page-container {
+    @include flexCenter();
+    flex-direction: column;
+    background: $whiteColor2;
+}
+
+/**********
+PAGE ONE
+**********/
+.page-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include flexCenter();
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    font-size: 1.25rem;
+    background: $whiteColor1;
+    color: $blackColor1;
+    p {
+        padding: $padding010;
+    }
+}
+
+/**********
+PAGE TWO
+**********/
+.page-two {
+    margin-bottom: 20px;
+    @include flexCenter();
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    font-size: 1.25rem;
+    background: $whiteColor1;
+    color: $blackColor1;
+    ul {
+        padding: $padding010;
+    }
+    li {
+        list-style: none;
+        margin: 5px;
+    }
+}
+
+/**********
+PAGE THREE
+**********/
+.page-three {
+    margin-bottom: 20px;
+    @include flexCenter();
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    font-size: 1.25rem;
+    background: $whiteColor1;
+    color: $blackColor1;
+    h2 {
+        // margin-bottom: 5px;
+    }
+    ul {
+        padding: $padding010;
+    }
+    li {
+        list-style: none;
+        margin: 8px;
+    }
+    .thick-line {
+        border-top: 1px solid $blackColor1;
+        border-bottom: 0;
+    }
+    .thin-line {
+        border-top: 1px solid $greyColor;
+        border-bottom: 0;
+    }
+}
+
+/**********
+PAGE FOUR
+**********/
+.page-four {
+    @include flexCenter();
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    font-size: 1.25rem;
+    background: $whiteColor1;
+    color: $blackColor1;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: $padding010;
+    }
+    i {
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: $blackColor1;
+        margin-left: 15px;
+    }
+    a:hover {
+        color: $blueColor;
+    }
+}

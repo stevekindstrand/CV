@@ -1,0 +1,21 @@
+/**********
+VARIABLES
+**********/
+$whiteColor1: #ffffff;
+$whiteColor2: #f2f2f2;
+$blackColor1: #111111;
+$blackColor2: #333333;
+$greyColor: #ccc4c2;
+$blueColor: #3224FF;
+
+$padding010: 0 10% 0 10%;
+$padding05: 0 5% 0 5%;
+
+/**********
+MIXIN
+**********/
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
