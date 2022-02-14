@@ -32,7 +32,6 @@ PAGE ONE
     flex-direction: column;
     height: 100vh;
     width: 70%;
-    font-size: 1.25rem;
     background: $whiteColor1;
     color: $blackColor1;
     p {
@@ -49,7 +48,6 @@ PAGE TWO
     flex-direction: column;
     height: 100vh;
     width: 70%;
-    font-size: 1.25rem;
     background: $whiteColor1;
     color: $blackColor1;
     ul {
@@ -70,12 +68,8 @@ PAGE THREE
     flex-direction: column;
     height: 100vh;
     width: 70%;
-    font-size: 1.25rem;
     background: $whiteColor1;
     color: $blackColor1;
-    h2 {
-        // margin-bottom: 5px;
-    }
     ul {
         padding: $padding010;
     }
@@ -101,7 +95,6 @@ PAGE FOUR
     flex-direction: column;
     height: 100vh;
     width: 70%;
-    font-size: 1.25rem;
     background: $whiteColor1;
     color: $blackColor1;
     ul {
